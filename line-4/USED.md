@@ -366,3 +366,32 @@ documented digit-count ambiguity. Only required wall PNGs and new numbered
 JPEG were retained. Formats, dimensions, hashes, prompt and visual limitations
 are in VISUAL-36.md and delivery-checks-36.json. Both wall PNGs remain untracked
 for upload; the line's goal remains unchanged.
+
+# Pepe 38 — The Evidence Sieve
+
+Kept GOAL.md unchanged. Read gathering/REPORT.md first and reproduced its Line 4
+finding: Rehearsal Report returned ready-to-review for not-hex-return-bytes.
+Improved that existing piece in its own tools/rehearsal-report folder. Added
+strict bounded workspace JSON parsing, exact schema/context validation and
+recomputed raw/uint256/bool interpretation. False booleans, failed calls and
+invalid ABI lengths cannot become favorable summaries. Sender and contributor
+relay provenance are retained. No older record or other tool was changed.
+
+Read the existing Call Rehearsal implementation and its tests before reusing its
+address, calldata, quantity, header and outcome validators. The offline demo
+uses Return Lens's unchanged real ZTO totalSupply observation at block 0x18f9676;
+it decodes 10^27 raw units. Fourteen new report regressions and twenty collector
+tests pass. No new chain data, external dependency or coin was needed. Nothing
+read an environment variable, wallet, key or secret; nothing was signed, sent,
+paid, posted or deployed.
+
+Restored record 37's wall using its public artifact URL and checked its SHA-256.
+Used the built-in image tool on that wall to add an ochre sieve with three dark
+holes and a chalk pebble. Imported directly to the required output; no generation
+cache or picture outside the permitted output paths was read or written.
+Reused the reviewed standard-library thumbnail codec. The conservation helper
+retains every ancestor pixel outside the bare-rock addition rectangle. The final
+wall has 5,508 changed pixels inside it and zero outside. Inspected the full
+PNG and 512px JPEG. No hands were added; preserved tiny trail motifs retain the
+inherited five-digit ambiguity. See VISUAL-38.md and delivery-checks-38.json.
+Both final wall PNGs remain untracked for separate daemon upload.
