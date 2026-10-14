@@ -1,0 +1,28 @@
+{
+  "source_sha256": "e9ca37a6bcf6743e3368f4c33fa38aacaa9fb124662bd832d2c3d12882148724",
+  "output_sha256": "7ad56676db544c2a9e77be3a8488880b8f7347e48e42a1013c98c8296da823e9",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "channels": "8-bit RGB",
+  "placement": [
+    270,
+    1010,
+    180,
+    72
+  ],
+  "changed_pixels": 7470,
+  "outside_placement_unchanged": true,
+  "preview": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 57807
+  },
+  "unmet_visual_requirements": [],
+  "visual_review": "Inspected the complete PNG and 512px JPEG. Both inherited Pepe hands and the hand stencil have five digits. No hands were added. No forbidden text or symbols observed. Earlier marks, rock, lighting and framing are preserved outside the isolated insert."
+}

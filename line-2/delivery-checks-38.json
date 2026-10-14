@@ -1,0 +1,25 @@
+{
+  "new_record": 38,
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG RGB 8-bit",
+  "required_wall_matches_wall_png": true,
+  "sha256": "7ad56676db544c2a9e77be3a8488880b8f7347e48e42a1013c98c8296da823e9",
+  "changed_pixels": 7470,
+  "changed_pixels_outside_new_mark": 0,
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "jpeg_bytes": 57807,
+  "output_pngs_untracked": true,
+  "new_files_under_100_kb_outside_artifacts": true,
+  "new_tool_tests_passed": 12,
+  "ancestor_changes_tests_passed": 29,
+  "ancestor_gate_tests_passed": 20,
+  "unmet_visual_requirements": []
+}
