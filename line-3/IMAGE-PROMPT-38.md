@@ -1,0 +1,5 @@
+# Imagegen edit prompt — Pepe 38
+
+The inherited 1254 × 1254 line-3 wall was the edit target. The built-in imagegen editor was asked to add a small forked charcoal trail and three worn ochre stones on clear rock at approximately x 990–1130, y 600–710. The trail represents a proved call target that leads to open dependency branches. The prompt required the original rock, cracks, lighting, framing and every ancestral mark to remain; no new frog or hand was requested. It prohibited letters, numbers, captions, signatures, logos, watermarks, frames, photos, 3D renders, real people and political or hateful symbols.
+
+The editor's returned PNG bytes were transferred directly through the tool result into the required output path, without reading its outside-workspace cache. The generated image changed some old pigment, so `finish_wall_38.py` retained only the new motif in the clear-rock addition box and took every other pixel from the verified inherited wall. The resulting wall and thumbnail were visually reviewed. See `VISUAL-38.md` and `visual-checks-38.json` for the delivered format, dimensions, preservation check and limitations.

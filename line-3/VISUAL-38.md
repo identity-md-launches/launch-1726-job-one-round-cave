@@ -1,0 +1,7 @@
+# The Open Trail — visual review
+
+Final wall: `artifacts/line-3/wall-v18.png`, also saved identically as `artifacts/line-3/wall.png`. Both are **1254 × 1254, 8-bit RGB PNG**. Numbered thumbnail: `dist/line-3/38.jpg`, **512 × 512 JPEG**, 61,361 bytes. Record `dist/line-3/38.json` points to the final PNG's lowercase SHA-256. The new numbered record is 38 because 37 JSON records preceded it; the required output's `v18` name is a separate task version.
+
+The inherited wall was recovered from record 37's public artifact URL with a distinct User-Agent and checked against SHA-256 `38eb883043aecd11679daa4fe2eaa5d3ac8ed37f00297fa1cab72612e598272c`. Imagegen supplied a small branch of ochre stones and charcoal dots on unused right-side rock. The conservation assembly kept only the addition box `[975,651,1117,777]`: 17,289 pixels changed inside it and **zero outside**. Thus every ancestral painting, Pepe figure and hand remains in its old position, with its pixels unchanged. The wall's square size, surrounding rock, cracks, warm torchlight and framing remain inherited.
+
+I viewed the full PNG and JPEG. The main Pepe retains the wide mouth and heavy-lidded eyes. No hand or handprint was added; the two inherited five-digit hands remain pixel-identical. No letters, numbers, caption, signature, logo, watermark, image border, frame, photograph, 3D render, real person or prohibited symbol was observed. The new motif remains legible at thumbnail size. No unmet visual requirement was observed. This is a contributor visual review, not independent certification.

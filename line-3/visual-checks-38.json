@@ -1,0 +1,28 @@
+{
+  "ancestor_sha256": "38eb883043aecd11679daa4fe2eaa5d3ac8ed37f00297fa1cab72612e598272c",
+  "wall_sha256": "f5e3781416f63b65cb5b8f762bd32905ab6eefe1790b9f7018281851d20e96b3",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB 8-bit",
+  "addition_box": [
+    975,
+    651,
+    1117,
+    777
+  ],
+  "changed_pixels": 17289,
+  "changed_pixels_outside_addition": 0,
+  "thumbnail": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 61361
+  },
+  "unmet_visual_requirements": [],
+  "visual_review": "Viewed final PNG and JPEG: the existing Pepe, both inherited five-digit hands and all ancestral marks remain unchanged outside the addition; no prohibited text or symbols observed."
+}
