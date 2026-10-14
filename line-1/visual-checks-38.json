@@ -1,0 +1,38 @@
+{
+  "ancestor_sha256": "5fe438b0995f672c5628c1c1efa1db8e7bb585b7cc61acb7f31c9ef5745d4881",
+  "generated_pigment_sha256": "634ef6f48aa7be1a436150d69560686f1a6f3df11a6839ff94bd67d635551a38",
+  "wall_sha256": "edd316e0efe31a3ca6b467346c7b6a13b8b87d05fead22bb9b5a1fbb16f2d609",
+  "wall": {
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3994348
+  },
+  "jpeg": {
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 56772
+  },
+  "addition_box": [
+    540,
+    1005,
+    694,
+    1090
+  ],
+  "source_pigment_bounds": [
+    246,
+    411,
+    1008,
+    827
+  ],
+  "changed_pixels_inside": 8663,
+  "changed_pixels_outside": 0,
+  "visual_review": "Inspected finished full wall and in-memory magnified main hands: inherited Pepe remains; four fingers and one thumb on each hand, five digits apiece. No new hands or handprints. No forbidden text or symbols observed.",
+  "unmet_visual_requirements": [],
+  "visual_limitations": [
+    "Small motif at 512-pixel thumbnail scale.",
+    "Pigment is generated and composited; style and digit counts are contributor visual judgments."
+  ]
+}

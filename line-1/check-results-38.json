@@ -1,0 +1,28 @@
+[
+  {
+    "tool": "zto-witness-replay",
+    "exit_code": 0,
+    "tests": 20,
+    "result": "All 20 focused tests passed; captured in task tool output."
+  },
+  {
+    "tool": "zto-witness",
+    "exit_code": 0,
+    "output": "test_block_hash_mismatch_withholds (test_zto_witness.WitnessTests.test_block_hash_mismatch_withholds) ... ok\ntest_demo_is_explicitly_single_source (test_zto_witness.WitnessTests.test_demo_is_explicitly_single_source) ... ok\ntest_failed_quoter_check_withholds (test_zto_witness.WitnessTests.test_failed_quoter_check_withholds) ... ok\ntest_matching_state_and_both_quoter_checks_release_floor_bound (test_zto_witness.WitnessTests.test_matching_state_and_both_quoter_checks_release_floor_bound) ... ok\ntest_pool_state_change_withholds (test_zto_witness.WitnessTests.test_pool_state_change_withholds) ... ok\ntest_source_label_is_ignored_but_pool_state_matches (test_zto_witness.WitnessTests.test_source_label_is_ignored_but_pool_state_matches) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.018s\n\nOK\n"
+  },
+  {
+    "tool": "zto-path",
+    "exit_code": 0,
+    "output": "test_corrupted_bitmap_tick_and_liquidity_rejected (test_zto_path.PathTests.test_corrupted_bitmap_tick_and_liquidity_rejected) ... ok\ntest_current_relay_and_read_only_allowlist (test_zto_path.PathTests.test_current_relay_and_read_only_allowlist) ... ok\ntest_exactly_consumed_at_boundary_crosses_once (test_zto_path.PathTests.test_exactly_consumed_at_boundary_crosses_once) ... ok\ntest_live_capture_hash_pinning_and_reorg (test_zto_path.PathTests.test_live_capture_hash_pinning_and_reorg) ... ok\ntest_monotonicity_and_conservation (test_zto_path.PathTests.test_monotonicity_and_conservation) ... ok\ntest_negative_bitmap_and_inclusive_downward_search (test_zto_path.PathTests.test_negative_bitmap_and_inclusive_downward_search) ... ok\ntest_offline_cli_and_invalid_input (test_zto_path.PathTests.test_offline_cli_and_invalid_input) ... ok\ntest_real_exhaustion_is_not_full_fill (test_zto_path.PathTests.test_real_exhaustion_is_not_full_fill) ... ok\ntest_real_improvement_over_one_interval (test_zto_path.PathTests.test_real_improvement_over_one_interval) ... ok\ntest_real_quoter_outputs_and_calldata (test_zto_path.PathTests.test_real_quoter_outputs_and_calldata) ... ok\ntest_step_limit_has_no_estimate (test_zto_path.PathTests.test_step_limit_has_no_estimate) ... ok\ntest_synthetic_boundary_no_double_crossing (test_zto_path.PathTests.test_synthetic_boundary_no_double_crossing) ... ok\ntest_synthetic_downward_crossing_subtracts_signed_net (test_zto_path.PathTests.test_synthetic_downward_crossing_subtracts_signed_net) ... ok\ntest_synthetic_empty_range_refuses_at_coverage (test_zto_path.PathTests.test_synthetic_empty_range_refuses_at_coverage) ... ok\ntest_synthetic_known_zero_liquidity_gap (test_zto_path.PathTests.test_synthetic_known_zero_liquidity_gap) ... ok\ntest_synthetic_liquidity_underflow_rejected (test_zto_path.PathTests.test_synthetic_liquidity_underflow_rejected) ... ok\ntest_synthetic_upward_crossing_adds_liquidity (test_zto_path.PathTests.test_synthetic_upward_crossing_adds_liquidity) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.100s\n\nOK\n"
+  },
+  {
+    "tool": "zto-band",
+    "exit_code": 0,
+    "output": "test_amount_precision (test_zto_band.BandTests.test_amount_precision) ... ok\ntest_exact_boundary_safely_refused_in_one_direction (test_zto_band.BandTests.test_exact_boundary_safely_refused_in_one_direction) ... ok\ntest_fees_are_directional (test_zto_band.BandTests.test_fees_are_directional) ... ok\ntest_interval_cap_and_refusal (test_zto_band.BandTests.test_interval_cap_and_refusal) ... ok\ntest_keccak_known_vectors (test_zto_band.BandTests.test_keccak_known_vectors) ... ok\ntest_live_capture_uses_one_block_hash (test_zto_band.BandTests.test_live_capture_uses_one_block_hash) ... ok\ntest_monotonic_and_conservation (test_zto_band.BandTests.test_monotonic_and_conservation) ... ok\ntest_negative_tick_floor (test_zto_band.BandTests.test_negative_tick_floor) ... ok\ntest_offline_cli_does_not_construct_rpc (test_zto_band.BandTests.test_offline_cli_does_not_construct_rpc) ... ok\ntest_pool_identity_and_real_decimals (test_zto_band.BandTests.test_pool_identity_and_real_decimals) ... ok\ntest_rational_delta_rounding (test_zto_band.BandTests.test_rational_delta_rounding) ... ok\ntest_real_quoter_regressions (test_zto_band.BandTests.test_real_quoter_regressions) ... ok\ntest_reject_corrupted_observation (test_zto_band.BandTests.test_reject_corrupted_observation) ... ok\ntest_rpc_allowlist_and_credential_rejection (test_zto_band.BandTests.test_rpc_allowlist_and_credential_rejection) ... ok\ntest_tick_extremes (test_zto_band.BandTests.test_tick_extremes) ... ok\ntest_zero_liquidity (test_zto_band.BandTests.test_zero_liquidity) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.034s\n\nOK\n"
+  },
+  {
+    "command": "python3 -B line-1/tools/zto-witness-replay/zto_witness_replay.py --demo",
+    "exit_code": 0,
+    "result": "withheld / same_source_label; both real historical raw replies match recomputation; no bound released"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "scope_passed": true,
+  "unchanged_goal": true,
+  "all_older_records_unchanged": true,
+  "record_count": 38,
+  "new_record": "dist/line-1/38.json",
+  "record_shape_passed": true,
+  "wall_sha256": "edd316e0efe31a3ca6b467346c7b6a13b8b87d05fead22bb9b5a1fbb16f2d609",
+  "required_output": "artifacts/line-1/wall-v18.png",
+  "wall_mirrors_identical": true,
+  "png_dimensions": [
+    1254,
+    1254
+  ],
+  "png_format": "8-bit RGB PNG",
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "jpeg_format": "baseline JPEG",
+  "jpeg_bytes": 56772,
+  "all_new_non_artifact_files_under_100_kb": true,
+  "pictures_untracked": true,
+  "artifact_pngs_intentionally_gitignored": true,
+  "no_other_new_pictures": true,
+  "changed_tracked_files": [
+    "line-1/USED.md"
+  ],
+  "new_files": [
+    "artifacts/line-1/wall-v18.png",
+    "artifacts/line-1/wall.png",
+    "dist/line-1/38.jpg",
+    "dist/line-1/38.json",
+    "line-1/CHECKS-38.md",
+    "line-1/VISUAL-38.md",
+    "line-1/check-results-38.json",
+    "line-1/finish_wall_38.py",
+    "line-1/tools/zto-witness-replay/README.md",
+    "line-1/tools/zto-witness-replay/demo-report.json",
+    "line-1/tools/zto-witness-replay/test_zto_witness_replay.py",
+    "line-1/tools/zto-witness-replay/zto_witness_replay.py",
+    "line-1/visual-checks-38.json",
+    "line-1/delivery-checks-38.json"
+  ],
+  "unmet_visual_requirements": []
+}
