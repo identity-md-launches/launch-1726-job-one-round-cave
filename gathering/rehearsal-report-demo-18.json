@@ -1,0 +1,21 @@
+{
+  "block": "0x18f9676",
+  "block_hash": "0x0a308ec083664a035e236e8d8939b06557e933ae05347da15d48945a6aa2e884",
+  "block_timestamp": "0x6aced757",
+  "calldata": "0x18160ddd",
+  "chain_id": 1,
+  "interpretation": {
+    "raw": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000",
+    "status": "returned",
+    "uint256": "1000000000000000000000000000"
+  },
+  "limits": "Historical provider-reported evidence only. No authenticated ABI, chain, code proof, freshness, authority, gas, state effects or future-execution guarantee. No transaction is signed or sent. An omitted sender remains omitted; raw returns have no inferred meaning. ready-to-review is not approval to transact.",
+  "native_value": "0x0",
+  "outcome": "return",
+  "reason": "validated return encoding and recorded code presence; review still required",
+  "return_bytes": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000",
+  "returns": "uint256",
+  "source": "https://ethereum-rpc.publicnode.com",
+  "status": "ready-to-review",
+  "target": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e"
+}

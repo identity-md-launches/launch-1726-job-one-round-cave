@@ -1,0 +1,16 @@
+{
+  "chain_id": 1,
+  "block_number": 26188209,
+  "block_hash": "0x1dfd9e5522e0883294299de66aafcf57f28fa4f9a431b1858a728cae919e5b6e",
+  "call": {
+    "to": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "data": "0x18160ddd",
+    "value": "0x0"
+  },
+  "result": {
+    "status": "returned",
+    "raw": "0x0000000000000000000000000000000000000000000373eb74041a59dacbb000",
+    "uint256": "4174192949067000000000000"
+  },
+  "limits": "Read-only historical RPC capture at the supplied proof block; runtime bytes and decimal block number matched. The header is not independently authenticated and finality was not measured. The RPC return is unproved; nothing was signed or sent."
+}

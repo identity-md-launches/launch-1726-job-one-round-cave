@@ -15,6 +15,16 @@ def checks():
                 commands.append((f'line-{number}-{folder.name}-suite',
                     ['-m', 'unittest', 'discover', '-s', str(folder), '-p', 'test_*.py', '-v'], 0))
     commands.extend([
+        ('zto-witness-replay-demo', ['line-1/tools/zto-witness-replay/zto_witness_replay.py', '--demo'], 0),
+        ('allowance-code-context-demo', ['line-2/tools/code-context/code_context.py'], 0),
+        ('code-dependency-frontier-demo', ['line-3/tools/code-dependency-frontier/demo.py'], 0),
+        ('rehearsal-report-demo', ['line-4/tools/rehearsal-report/rehearsal_report.py'], 0),
+        ('proof-backed-report-demo', ['shared/rehearsal-report/proof_report.py', '--demo'], 0),
+        ('dependency-backed-report-demo', ['shared/frontier-report/frontier_report.py', '--demo'], 0),
+        ('dependency-backed-report-open-frontier', ['shared/frontier-report/frontier_report.py',
+         '--bundle', 'line-3/tools/code-routes/imd-proof.json', '--observation',
+         'shared/frontier-report/imd-call.json', '--signature', 'totalSupply()', '--types',
+         'uint256', '--target-proof', 'line-3/tools/code-target-proofs/imd-target-proof.json'], 3),
         ('zto-witness-demo', ['line-1/tools/zto-witness/zto_witness.py', '--demo'], 0),
         ('relations-surface-demo', ['shared/return-relations/relations_surface.py', 'demo'], 2),
         ('zto-target-check-demo', ['line-1/tools/zto-target-check/zto_target_check.py', '--demo'], 0),
@@ -145,7 +155,7 @@ def main():
             results.append({'name': name, 'passed': False, 'error': str(exc)})
     print(json.dumps({'schema': 'gathering-local-checks-v3',
         'authority': 'Local contributor checks; no independent certification.',
-        'all_passed': all(r['passed'] for r in results), 'checks': results}, indent=2))
+        'all_passed': all(r['passed'] for r in results), 'checks': results}, indent=1))
     return 0 if all(r['passed'] for r in results) else 1
 
 

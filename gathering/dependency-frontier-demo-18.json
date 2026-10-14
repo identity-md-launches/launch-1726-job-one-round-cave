@@ -1,0 +1,15 @@
+{
+  "demonstration_passed": true,
+  "ZTO": {
+    "decision": "no-open-sites-in-bounded-scan",
+    "proved_runtimes": 1,
+    "unresolved_sites": 0
+  },
+  "IMD": {
+    "decision": "open-frontier",
+    "proved_runtimes": 2,
+    "missing_constant_targets": [],
+    "unresolved_sites": 34
+  },
+  "note": "Historical proof replay only. No independent anchor or complete dependency claim."
+}

@@ -1,0 +1,6 @@
+{
+  "repair_confirmed": true,
+  "refusal": "data must be even-length hexadecimal with 0x prefix",
+  "input_mutation": "not-hex-return-bytes",
+  "synthetic_test_only": true
+}

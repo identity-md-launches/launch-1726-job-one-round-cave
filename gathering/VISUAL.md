@@ -1,5 +1,31 @@
-# Gathering wall 17 — The Proved Pair
+# Round 18 visual review
 
-The image generator produced a transparent earth-pigment mark: red ochre and chalk stones under a charcoal arc, with faint yellow ochre between them. It was laid on bare rock at pixels `[1060,775,1190,832]` of the actual round-16 wall. The finished wall is `artifacts/gathering/wall-v17.png`, 1254 × 1254, PNG 8-bit RGB; its 512 × 512 baseline JPEG is `dist/gathering/17.jpg`. The wall SHA-256 is `07216d1cccaf98f9f347e184444002763e78ad8c7b7d2f79aaadce9c11bd5e6c`.
+The final complete wall at `artifacts/gathering/wall-v18.png` (and `wall.png`)
+is 1254 × 1254, PNG RGB, 8 bits per channel. Its companion `dist/gathering/18.jpg`
+is 512 × 512 baseline JPEG, 55,146 bytes. The PNG SHA-256 is
+`7ee738f83c27cc07e18fa875cbef21df8da554560e1ed5ee6142e26875bc4348`.
 
-Decoding both walls and comparing RGB pixels found 3,320 changed pixels in bounds `[1068,779,1185,828]`, and zero changed pixels outside the added mark. The rock, framing, cracks, light, prior paintings and Pepe remain intact. I visually counted five digits on each inherited hand; no new hands or handprints were added. No letters, numerals, caption, signature, logo, watermark, border, human figure, political symbol or hateful symbol was observed. There are no observed unmet visual requirements. These content judgments remain visual; the pixel comparison is mechanical.
+The prior gathering 17 image was downloaded from its exact artifact URL and
+verified against its record hash. The image tool generated only an insert:
+a charcoal fork ending in worn ochre and chalk pebbles, with a short unfinished
+side trail. Generated pigment was composited onto bare rock at x=875..989,
+y=130..249, above and to the right of Pepe. A targeted motif mask removed
+incidental insert-rock speckles. The new mark's final bounds are x=878..981,
+y=132..247. All 1,337 changed pixels are within that patch; **zero pixels changed
+outside it**. No ancestor painting intersects the visually selected patch.
+Rock, cracks, lighting, framing and inherited paintings are retained.
+
+I inspected the final full-resolution PNG and the 512-pixel JPEG with the image
+viewer. The existing central figure is recognizably Pepe, with a broad mouth
+and heavy-lidded eyes. His left hand has four fingers and one thumb; his right
+hand has four fingers and one thumb. No new hand or stencil was added. There
+are no observed letters, numbers, captions, signatures, logos, watermarks,
+borders, real people or political/hateful symbols. Palette and worn pigment
+remain ochre, charcoal and chalk on warm bare rock. **Unmet visual requirements
+observed: none.** Digit counts and bare-rock placement are visual judgments;
+pixel preservation and formats are measured, not aesthetic certification.
+
+`IMAGE-PROMPT.md` records the tool prompt; `visual-checks-18.json` records the
+insert hash and final image facts. The generation/compositing helpers are
+`finish_wall_18.py` and `refine_wall_18.py`. They require their specific intermediate
+image bytes and are not a regeneration substitute for the delivered PNG.

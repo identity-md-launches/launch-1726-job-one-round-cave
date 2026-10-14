@@ -1,0 +1,44 @@
+{
+  "schema": "gathering-visual-checks-v18",
+  "source_sha256": "07216d1cccaf98f9f347e184444002763e78ad8c7b7d2f79aaadce9c11bd5e6c",
+  "image_tool_insert_sha256": "4c7963d9014d88751abc65eab7d43b0eac5ce04867455928051fa274cff61d99",
+  "output": "artifacts/gathering/wall-v18.png",
+  "output_sha256": "7ee738f83c27cc07e18fa875cbef21df8da554560e1ed5ee6142e26875bc4348",
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG, 8-bit RGB",
+  "thumbnail": "dist/gathering/18.jpg",
+  "thumbnail_dimensions": [
+    512,
+    512
+  ],
+  "thumbnail_format": "baseline JPEG",
+  "addition_rectangle": [
+    875,
+    130,
+    990,
+    250
+  ],
+  "changed_pixel_bounds": [
+    878,
+    132,
+    981,
+    247
+  ],
+  "changed_pixels": 1337,
+  "changed_pixels_outside_addition": 0,
+  "pigment_pixels": {
+    "charcoal": 609,
+    "red_ochre": 1229,
+    "chalk_tinted_stone": 98
+  },
+  "left_hand_digits": 5,
+  "right_hand_digits": 5,
+  "new_hands": 0,
+  "unmet_visual_requirements_observed": [],
+  "review_limits": "Bare-rock placement, inherited digit counts and forbidden marks are visually reviewed. Pixel conservation is measured. The image tool generated an insert; only pigment was composited.",
+  "initial_composite_sha256": "2b59556382184e2363da169606c19633f4f25dc4c8b545382dc5f0ec5fa1d3fe",
+  "pigment_pixels_stage": "Initial extraction counts; final motif mask removed incidental insert-rock speckles."
+}

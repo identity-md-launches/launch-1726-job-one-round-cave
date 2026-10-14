@@ -1,0 +1,444 @@
+{
+  "schema": "dependency-backed-call-report-v1",
+  "status": "review-with-open-frontier",
+  "call_context_aligned": true,
+  "dependency_frontier_open": true,
+  "call": {
+    "to": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "data": "0x18160ddd",
+    "value": "0x0"
+  },
+  "call_report": {
+    "schema": "proof-backed-rehearsal-report-v1",
+    "status": "ready-to-review",
+    "reason": "historical call, candidate selector, exact block and runtime proof align",
+    "failed_checks": [],
+    "chain_id": 1,
+    "block": "0x18f99b1",
+    "block_hash": "0x1dfd9e5522e0883294299de66aafcf57f28fa4f9a431b1858a728cae919e5b6e",
+    "target": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "calldata": "0x18160ddd",
+    "native_value": "0x0",
+    "signature": "totalSupply()",
+    "source": "https://ethereum-rpc.publicnode.com",
+    "outcome": "return",
+    "return_bytes": "0x0000000000000000000000000000000000000000000373eb74041a59dacbb000",
+    "decoded_arguments": [],
+    "decoded_values": [
+      {
+        "type": "uint256",
+        "value": "4174192949067000000000000"
+      }
+    ],
+    "proof_anchor": "unanchored-rpc-header",
+    "input_sha256": {
+      "proof_bundle": "70c6518397cfc4f74cf0cc8a0f57706f5d020611bf7bfc3bac32b5e1ec5e3959",
+      "call_observation": "3e9016ec31587177f1105d66b5b256579faf011d45a2a81182a6d386c0a322f2",
+      "caller_choices": "2dfa22cdb96720824aacd6dda2b982dc15aab4557931ee31c6ce31fe2af4ad64"
+    },
+    "limits": "The ABI signature and return layout are reviewer assertions. Historical RPC returns are not locally executed or proved; the supplied header is not independently authenticated. Selector presence does not prove reachability, and this report gives no freshness, state-effect, authority or future-execution guarantee."
+  },
+  "dependency_frontier": {
+    "schema": "code-dependency-frontier-v1",
+    "chain_id": 1,
+    "source_target": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "code_block": {
+      "number": "0x18f99b1",
+      "hash": "0x1dfd9e5522e0883294299de66aafcf57f28fa4f9a431b1858a728cae919e5b6e"
+    },
+    "decision": "open-frontier",
+    "proof_bundle_roots": [
+      "0x1a44076050125825900e736c501f859c50fe728c",
+      "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7"
+    ],
+    "proved_runtime_count": 2,
+    "constant_edge_count": 1,
+    "missing_constant_targets": [],
+    "unresolved_call_site_count": 34,
+    "runtimes": [
+      {
+        "address": "0x1a44076050125825900e736c501f859c50fe728c",
+        "code_hash": "0xb747fab405fadff7fc9d8adb083d18d3454ac58ffdefe9121ed5f008f57d93e0",
+        "runtime_bytes": 24005,
+        "call_instruction_count": 23,
+        "constant_call_site_count": 0,
+        "unresolved_call_site_count": 23,
+        "recognized_solidity_metadata": {
+          "start": 23952,
+          "bytes": 53,
+          "solc_version": "0.8.22"
+        }
+      },
+      {
+        "address": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+        "code_hash": "0x79a1ae149d27d4aae006d4dd75cb834222c9623799bbf34359428aaf66fec3bf",
+        "runtime_bytes": 22990,
+        "call_instruction_count": 12,
+        "constant_call_site_count": 1,
+        "unresolved_call_site_count": 11,
+        "recognized_solidity_metadata": {
+          "start": 22937,
+          "bytes": 53,
+          "solc_version": "0.8.26"
+        }
+      }
+    ],
+    "constant_edges": [
+      {
+        "caller": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+        "target": "0x1a44076050125825900e736c501f859c50fe728c",
+        "status": "proved-runtime",
+        "call_site_count": 1,
+        "opcodes": [
+          "STATICCALL"
+        ],
+        "sites": [
+          {
+            "pc": 12834,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 12743,
+            "target_status": "locally-constant",
+            "target_word": "0x0000000000000000000000001a44076050125825900e736c501f859c50fe728c",
+            "target_address": "0x1a44076050125825900e736c501f859c50fe728c",
+            "overlaps_recognized_metadata": false
+          }
+        ]
+      }
+    ],
+    "unresolved_calls": [
+      {
+        "caller": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sites": [
+          {
+            "pc": 3392,
+            "opcode": "CALL",
+            "segment_start_pc": 3389,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 3677,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 3631,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 3901,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 3820,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 5174,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 5075,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 6691,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 6645,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 6915,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 6834,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 8103,
+            "opcode": "CALL",
+            "segment_start_pc": 8100,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 8924,
+            "opcode": "CALL",
+            "segment_start_pc": 8921,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 9227,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 9181,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 9451,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 9370,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 10345,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 10299,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 10569,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 10488,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 12081,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 12035,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 12305,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 12224,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 13250,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 13204,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 13474,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 13393,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 14924,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 14913,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 15093,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 14985,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 16864,
+            "opcode": "CALL",
+            "segment_start_pc": 16850,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 17170,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 17091,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 17800,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 17788,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 18385,
+            "opcode": "CALL",
+            "segment_start_pc": 18356,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 18930,
+            "opcode": "CALL",
+            "segment_start_pc": 18917,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          }
+        ]
+      },
+      {
+        "caller": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+        "sites": [
+          {
+            "pc": 2958,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 2898,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 3066,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 3009,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 6127,
+            "opcode": "CALL",
+            "segment_start_pc": 6124,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 6220,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 6162,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 6497,
+            "opcode": "CALL",
+            "segment_start_pc": 6494,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 8175,
+            "opcode": "CALL",
+            "segment_start_pc": 8172,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 9260,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 9248,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 9487,
+            "opcode": "STATICCALL",
+            "segment_start_pc": 9476,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 12315,
+            "opcode": "CALL",
+            "segment_start_pc": 12302,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 13214,
+            "opcode": "CALL",
+            "segment_start_pc": 13199,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": false
+          },
+          {
+            "pc": 22977,
+            "opcode": "CALLCODE",
+            "segment_start_pc": 22976,
+            "target_status": "unresolved",
+            "target_word": null,
+            "target_address": null,
+            "overlaps_recognized_metadata": true
+          }
+        ]
+      }
+    ],
+    "raw_proofs_reverified": true,
+    "anchor_authenticity_verified": false,
+    "reachability_verified": false,
+    "dependency_completeness_verified": false,
+    "semantic_safety_verified": false,
+    "scope": "Same-block raw state/header/runtime proof replay, followed by bounded structural scanning of every proved source or discovered-target runtime. Only locally constant decoded external-call operands can request more proofs; unresolved operands remain open. Structural sites can be unreachable or metadata. This is not EVM execution, complete dependency discovery, authenticated consensus, source equivalence, current-state proof, safety review or transaction approval."
+  },
+  "input_sha256": {
+    "proof_bundle": "70c6518397cfc4f74cf0cc8a0f57706f5d020611bf7bfc3bac32b5e1ec5e3959",
+    "call_observation": "3e9016ec31587177f1105d66b5b256579faf011d45a2a81182a6d386c0a322f2",
+    "caller_choices": "2dfa22cdb96720824aacd6dda2b982dc15aab4557931ee31c6ce31fe2af4ad64",
+    "target_proofs": [
+      "36643f9ba518b2f40c524fd893e93b97dcaeaf65436cfa61b06bbb46d2ff32e6"
+    ]
+  },
+  "complete_dependencies_verified": false,
+  "transaction_approved": false,
+  "limits": "The frontier is a structural scan of supplied proved runtimes, not call-specific execution or reachability. Open sites might be irrelevant to this call; no-open-sites does not establish complete dependencies. Proof inclusion is relative to an unauthenticated supplied header. Call returns and reviewer ABI choices remain unproved. No freshness, permission, economic safety, state effects or future execution is established."
+}

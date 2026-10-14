@@ -1,0 +1,15 @@
+test_anchor_is_equality_only (test_frontier_report.FrontierReportTests.test_anchor_is_equality_only) ... ok
+test_cli_exits_and_no_network_demo (test_frontier_report.FrontierReportTests.test_cli_exits_and_no_network_demo) ... ok
+test_corrupted_proof_refused (test_frontier_report.FrontierReportTests.test_corrupted_proof_refused) ... ok
+test_malformed_return_refused (test_frontier_report.FrontierReportTests.test_malformed_return_refused) ... ok
+test_missing_constant_proof_remains_visible (test_frontier_report.FrontierReportTests.test_missing_constant_proof_remains_visible) ... ok
+test_real_imd_valid_call_keeps_open_frontier (test_frontier_report.FrontierReportTests.test_real_imd_valid_call_keeps_open_frontier) ... ok
+test_real_zto_bounded_review (test_frontier_report.FrontierReportTests.test_real_zto_bounded_review) ... ok
+test_target_or_selector_mismatch_withholds (test_frontier_report.FrontierReportTests.test_target_or_selector_mismatch_withholds) ... ok
+test_unrelated_duplicate_and_old_proofs_refused (test_frontier_report.FrontierReportTests.test_unrelated_duplicate_and_old_proofs_refused) ... ok
+test_wrong_call_block_withholds_all_values (test_frontier_report.FrontierReportTests.test_wrong_call_block_withholds_all_values) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.512s
+
+OK

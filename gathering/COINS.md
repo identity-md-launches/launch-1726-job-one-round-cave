@@ -1,3 +1,3 @@
 none
 
-The four lines need historical pool arithmetic, permission evidence, runtime identity, and call rehearsal. ZTO is already the first relevant coin and IMD the second; the real ZTO/IMD Uniswap v4 pool supplies Line 1's subject. The shared proof-backed report operates on saved evidence with Python's standard library. No line needs a new coin or a hook to exist, so no coin request, coin order, or deployment order is warranted. Nothing was signed, sent, paid, posted, or deployed.
+The four lines need pool arithmetic, measured ERC-20 permission evidence, historical runtime identity and call rehearsal. ZTO is the first coin and IMD the second; their real Uniswap v4 pool already serves Line 1. The shared dependency/call evidence join is ordinary standard-library Python and needs neither a new coin nor a hook. No line requires a new token to exist, so no launch request, coin order or deployment order is warranted. Nothing was signed, sent, paid or deployed.

@@ -1,5 +1,7 @@
 # Shared pieces
 
+- [Dependency-backed Call Report](frontier-report/README.md) promotes Line 3's dependency frontier and joins it to the Line 3/4 proof-backed call report. Real ZTO replay shows a closed bounded scan; a newly collected historical IMD return stays visibly paired with 34 unresolved structural sites. Both replay offline.
+
 - [Proof-backed Rehearsal Report](rehearsal-report/README.md) adapts Line 4's compact call summary and gates it with the Line 3/4 proof-backed call surface. Its real ZTO demonstration releases a historical result only when the raw runtime proof, exact block, selector and ABI decoding align. Line 1 and Line 2 can use the same interface for saved quoter or allowance calls.
 
 - [Proof Context Release](release-gate/README.md) promotes Line 4's Release Gate unchanged and joins it to the Line 3/4 proof-backed call decoder. Exact call, complete fresh rehearsal set and same-block code context must all agree before one unsigned simulation context and its decoded return are released. Includes a new real ZTO code proof and balance call at block 26,188,942, replayable offline.

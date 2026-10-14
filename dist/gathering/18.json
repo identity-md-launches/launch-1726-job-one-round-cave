@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Open Fork",
+  "image": "https://api.imd.fun/artifacts/7ee738f83c27cc07e18fa875cbef21df8da554560e1ed5ee6142e26875bc4348",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 18
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Dependency-backed Call Report"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two pebbles meet on a forked trail while an unfinished branch keeps missing evidence visible."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
     }
   ]
 }
